@@ -76,6 +76,7 @@ font-family: 'Bangers', cursive;
   .avatar-img {
     height:250px;
     padding-top:5em;
+    border-radius: 50%;
   }
 
   .banner-text {
