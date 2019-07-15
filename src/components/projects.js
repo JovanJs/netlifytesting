@@ -16,7 +16,7 @@ constructor(props){
                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'}}> React Project #1</CardTitle>
                    <CardText>
-                   Broken when reviewing from mobile phone lol
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
                    </CardText>
                    <CardActions border>
                         <Button colored>GitHub</Button>
