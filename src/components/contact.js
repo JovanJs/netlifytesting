@@ -17,8 +17,15 @@ class Contact extends Component {
                     style={{height: '250px'}}                    
                     />
                     <p style={{width: '75%', margin:'auto', paddingTop:'1em'  }}>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text 
-                    ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    Resourceful Cisco-Certified Network Associate committed to performing assigned tasks while working in a fast-paced environment. Familiar with Cisco Network Equipment i.e Routers, Switches and firewalls etc.
+
+My passion for networks has led me to most recently attain my CCNA(R&S) with the following in working progress.
+
+CCNP Switch 300 - 115: Completed 16th November 2018
+CCNP ROUTE 300 - 101 in progress
+CCNP T-SHOOT - pending
+
+I'm eager to continue to develop my skills contributing to an organisation where hard work and dedication leads to progression and a rewarding career. 
                     </p>
                     
                     </Cell>
@@ -30,30 +37,25 @@ class Contact extends Component {
 <div className="contact-list">
 <List>
   <ListItem>
-    <ListItemContent style={{fontSize:'25px' , fontFamily:'anton' }}>
+    <ListItemContent style={{fontSize:'25px' , fontFamily:'permanent marker' }}>
         <i className="fa fa-phone-square" aria-hidden="true"/>
-        07498 068 705
+        Available upon request.
         </ListItemContent>
   </ListItem>
 
-  <ListItem>
-  <ListItemContent style={{fontSize:'25px' , fontFamily:'anton' }}>
-        <i className="fa fa-github" aria-hidden="true"/>
-        
-        </ListItemContent>
-  </ListItem>
+ 
 
   <ListItem>
-  <ListItemContent style={{fontSize:'25px' , fontFamily:'anton' }}>
+  <ListItemContent style={{fontSize:'25px' , fontFamily:'permanent marker' }}>
         <i className="fa fa-envelope" aria-hidden="true"/>
        Yung_knotz@live.co.uk
         </ListItemContent>
   </ListItem>
 
   <ListItem>
-  <ListItemContent style={{fontSize:'25px' , fontFamily:'anton' }}>
+  <ListItemContent style={{fontSize:'25px' , fontFamily:'permanent marker' }}>
         <i className="fa fa-skype" aria-hidden="true"/>
-        my Skype ID
+        JovanHunter
         </ListItemContent>
   </ListItem>
 
