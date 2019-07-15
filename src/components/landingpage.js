@@ -17,7 +17,7 @@ class Landing extends Component {
                         <h1>Full Stack Javascript Developer</h1>
                         <hr/>
 
-                        <p>HTML/CSS: Bootstrap | Javascript | React | NodeJS | Mongodb</p>
+                        <p> HTML/CSS: Bootstrap | Javascript | React | NodeJS | Mongodb</p>
                         <div className="social-links">
 
                             {/* LinkedIn */}

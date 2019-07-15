@@ -72,7 +72,6 @@ font-family: 'Bangers', cursive;
 
 
 
-
   .avatar-img {
     height:250px;
     padding-top:5em;
@@ -91,6 +90,7 @@ font-family: 'Bangers', cursive;
     font-size: 66px;
     font-weight: bold;
     color: white;
+    font-family: 'Permanent Marker', cursive;
   }
 
   .banner-text hr {
@@ -103,6 +103,7 @@ font-family: 'Bangers', cursive;
     color: white;
     font-size: 20px;
     padding: 1em;
+    font-family: 'Chela One', cursive;
   }
 
   .social-links {
