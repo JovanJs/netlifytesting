@@ -13,7 +13,7 @@ constructor(props){
 
                 <div className="projects-grid">
                 {/* Project 1 */}
-               <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+               <Card shadow={5} style={{minWidth: '450', margin:'auto', padding:'1% 1% 2% 2%'}}>
                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'}}> React Project #1</CardTitle>
                    <CardText>
                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
@@ -29,7 +29,7 @@ constructor(props){
                </Card>
 
                   {/* Project 2 */}
-               <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+               <Card shadow={5} style={{minWidth: '450', margin:'auto', padding:'1% 1% 2% 2%' }}>
                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'}}> React Project #2</CardTitle>
                    <CardText>
                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
@@ -45,7 +45,7 @@ constructor(props){
                </Card>
 
                   {/* Project 3 */}
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin:'auto', padding:'1% 1% 2% 2%' }}>
                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/3200/1*qXcjSfRj0C0ir2yMsYiRyw.jpeg) center / cover'}}> React Project #3</CardTitle>
                    <CardText>
                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
@@ -83,6 +83,7 @@ constructor(props){
         } 
         else if(this.state.activeTab === 2) {
             return(
+                <div className ="projectone">
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/1906852_93c6.jpg) center / cover'}}> MongoDB Project #1</CardTitle>
                 <CardText>
@@ -97,10 +98,12 @@ constructor(props){
                      <IconButton name="share"/>
                 </CardMenu>
             </Card>
+            </div>
             )
         } 
         else if(this.state.activeTab === 3) {
             return (
+                <div className="projecttwo">
                 <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/902/1*alZcSIb0lcN7gQIx2tJ_tg.png) center / cover'}}> Express Project #1</CardTitle>
                 <CardText>
@@ -115,14 +118,16 @@ constructor(props){
                      <IconButton name="share"/>
                 </CardMenu>
             </Card>
+            </div>
             )
         } 
         else if(this.state.activeTab === 4)  {
             return (
-                <Card shadow={5} style={{minWidth: '450', margin:'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.filepicker.io/api/file/BFMMlbcQvml9HSqXcvNp) center / cover'}}> Python Project #1</CardTitle>
+                <div className="projectthree">
+                <Card shadow={5} style={{minWidth: '450', margin:'auto', padding:'1% 1%'}}>
+                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://www.filepicker.io/api/file/BFMMlbcQvml9HSqXcvNp) center / cover'}}> Python Project #1</CardTitle>
                 <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                loooool I is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
                 </CardText>
                 <CardActions border>
                      <Button colored>GitHub</Button>
@@ -133,6 +138,7 @@ constructor(props){
                      <IconButton name="share"/>
                 </CardMenu>
             </Card>
+            </div>
             )
 
             }

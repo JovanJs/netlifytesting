@@ -11,12 +11,12 @@ class App extends Component {
       <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title="JS Engineer" scroll>
-            <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+            <Navigation className="smolder">
+                <Link style={{fontWeight:"bold"}} to="/">Home</Link>
+                <Link style={{fontWeight:"bold"}} to="/resume">Resume</Link>
+                <Link style={{fontWeight:"bold"}} to="/aboutme">About Me</Link>
+                <Link style={{fontWeight:"bold"}} to="/projects">Projects</Link>
+                <Link style={{fontWeight:"bold"}} to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="JS Engineer">
